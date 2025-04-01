@@ -8,12 +8,12 @@
 
 <body>
 	 <h1>Time,Space,Complexity</h1>
-	<p>Time and space complexity are fundamental concepts in computer science that measure how an algorithm's efficient scales with the size of its input. They are used to evaluate how much time and memory an algorithm needs to run.</p>
-    <p><b>Space complexity</b> is a measure of how much additional memory an algorithm needs to use relative to the size of its input. It helps us understand how the memory requirements of an algorithm grow as the input size increases.O(n) means the algorithm's memory usage grows linearly with the input size n.
-    If the input size doubles, the required memory also (approximately) doubles.
-    It indicates that the algorithm uses additional space proportional to the input size.
-    Space complexity key concept is These are three points Auxiliary Space: The extra space used by the algorithm beyond the input data
-     Input Space: The space required to store the input itself Total Space Complexity: Typically refers to auxiliary space (unless specified otherwise)</p>
+	<p>Time and space complexity are fundamental concepts in computer science that measure how an algorithm's efficient scales with the size of its input. They are used to evaluate how much time and memory an algorithm needs to run.Time complexity is a fundamental concept in computer science that describes the amount of computational time an algorithm takes relative to the size of its input, denoted as *n*. It provides an asymptotic upper bound on the growth rate of an algorithm's runtime, typically expressed using Big-O notation (e.g., *O(1)*, *O(log n)*, *O(n)*, *O(n²)*). For example, an algorithm with *O(n)* time complexity scales linearly with input size, while an *O(n²)* algorithm grows quadratically. Efficient algorithms often strive for logarithmic (*O(log n)*) or linear time, whereas exponential complexities (*O(2ⁿ)*) are generally infeasible for large inputs. Understanding time complexity helps optimize performance by comparing algorithmic efficiency independent of hardware-specific factors.</p>
+    <p><b>Space complexity</b>Space complexity measures the amount of memory an algorithm requires relative to its input size (*n*). It determines how much additional storage (beyond the input itself) is needed during execution. Like time complexity, it is expressed using Big-O notation (e.g., *O(1)*, *O(n)*, *O(n²)*).  
+    An algorithm with *O(1)* space complexity uses a fixed amount of memory, regardless of input size. For example, a loop summing numbers requires only one variable for storage. In contrast, *O(n)* space means memory usage grows linearly with input size, such as storing an array or a recursive call stack with *n* depth.  
+    Higher space complexities, like *O(n²)*, occur when algorithms generate 2D structures (e.g., matrices). Recursive algorithms may also have significant space overhead due to stack frames. Optimizing space complexity is crucial for memory-constrained systems, often trading time efficiency for reduced storage.  
+    Key considerations include: Auxiliary space (extra memory used by the algorithm).  
+    Input storage (whether the input is modified in-place).Trade-offs between time and space (e.g., caching vs. recomputation).  Understanding space complexity ensures efficient memory usage alongside runtime performance.</p>
 	<script type="text/javascript" src="./script.js">
 </script>
 
